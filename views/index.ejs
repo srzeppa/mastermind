@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/css/style.css' />
+    <script src='jquery.min.js'></script>
+    <script src='/js/skrypt.js'></script>
+  </head>
+  <body>
+    <center>
+        <div>
+            <h2>Witaj w <%= title %>!</h2>
+            <label>Rozmiar: <input type="text" id="sizeField"></label>
+            <label>Ilość liczb: <input type="text" id="dimField"></label>
+            <label>Ilość ruchów: <input type="text" id="maxField"></label>
+            <input type="button" value="Zacznij grę!" id="buttonStartGame">
+            <div id="gameSettings"></div>
+            <div id="gameContent"></div>
+        </div>
+    </center>
+
+  </body>
+</html>
